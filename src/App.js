@@ -7,9 +7,9 @@ import Contact from './components/Contact';
 
 const App = () => {
   // Masukkan Header dan Contact ke dalam div App
-  
+
 return (
-  <div className="App" style={{ display: "flex", 'flexDirection': "column" }}>
+  <div className="App">
     <Header />
     {contacts.map((contact) => {
       return <Contact data={contact}>
