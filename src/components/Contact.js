@@ -5,18 +5,17 @@ import React from 'react';
 const Contact = ({ data }) => {
     const { name, email, phone, photo } = data;
     return (
-      <>
-        <div key="email" style={{ display: "flex", flexDirection: "row" }}>
-          <img src={photo} width="50px" alt={name} />
-          <div style={{ display: "flex", flexDirection: "column" }}>
-            <p>{name}</p>
-            <p>{phone}</p>
-            <p>{email}</p>
-          </div>
+        <div className='card'>
+        <div className='image-contact'>
+        <img src={photo} className='photo-contact'/>
         </div>
-        <br />
-      </>
-    );
-  };
+            <div className='data-contact'>
+                <h1 className='name'>{name}</h1>
+                <h2 className='phone'>{phone}</h2>
+                <h3 className='email'>{email}</h3>
+            </div>
+            </div>
+)
+}
 
 export default Contact;

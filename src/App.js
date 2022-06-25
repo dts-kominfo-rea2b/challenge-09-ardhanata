@@ -10,13 +10,16 @@ const App = () => {
 
 return (
   <div className="App">
-    <Header />
-    {contacts.map((contact) => {
-      return <Contact data={contact}>
-      </Contact>
-    })}
-  </div>
-);
+      <Header />
+      <div className='cardcontact'>
+        <Contact data={contacts[0]}/>
+        <Contact data={contacts[1]}/>
+        <Contact data={contacts[2]}/>
+        <Contact data={contacts[3]}/>
+        <Contact data={contacts[4]}/>
+        <Contact data={contacts[5]}/>
+      </div>
+    </div>
+  );
 }
-
 export default App;

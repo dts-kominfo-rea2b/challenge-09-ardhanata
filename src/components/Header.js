@@ -3,15 +3,11 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <>
-        <h1>
-            Call a Friend
-        </h1>
-        <h4>
-            your friendly contact app
-        </h4>
-        </>
-    )
+        <div>
+        <h1 className='title'>Call a Friend</h1>
+        <h3 className='sub-title'>your friendly contact app</h3>
+    </div>
+)
 }
 
 export default Header;
