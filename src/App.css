@@ -10,7 +10,9 @@ body{
   height: 100vh;
   background: #DAB797;
   padding-bottom: 100%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
 }
 
 .cardcontact{
